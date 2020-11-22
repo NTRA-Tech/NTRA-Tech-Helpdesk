@@ -1,25 +1,89 @@
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>NTRA-TECH IT Solutions</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  
-  <style>
-      h1{
-          text-align: center;
-          font-family: Arial, Helvetica, sans-serif;
-          color: teal;
-          margin: 70px;
-          
-      }
 
+  <style>
+    {
+      box-sizing: border-box;
+    }
+
+    .navbar a {
+      font-family: "Montserrat light";
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #dad8d8;
+      color: black;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #494d59;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+    }
+
+    .header {
+      padding: 5px;
+      text-align: center;
+      background: #ffffff;
+      color: white;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: "Montserrat light";
+      color: #494d59;
+      margin: 25px;
+    }
+
+    h2 {
+      font-family: "Montserrat Extrabold";
+      color: #494d59;
+      float: left;
+    }
+
+    div {
+      text-align: center;
+      size: 1ch;
+      margin: 50px;
+    }
   </style>
 </head>
-<div id="header"><img src="NTRA_TECH.png" alt="NTRA-TECH Logo">
-</div>
-<h1>WELCOME to NTRA-TECH IT HELPDESK</h1>
 
 <body>
+
+  <div class="header">
+    <img src="Logo.jpg" alt="NTRA-TECH Logo" width="8%" class="center">
+    <h1>Welcome to NTRA-TECH Online Support</h1>
+  </div>
+
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <div class="main">
+    <h2>How can we help?</h2>
+  </div>
+
 </body>
+
 </html>
